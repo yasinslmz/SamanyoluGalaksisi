@@ -1,0 +1,483 @@
+body{
+    background-image: url("../images/uzay.jpg");
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.h {
+    text-align: center;
+    margin-top: 420px;
+}
+
+.h h2{
+    font-size: 88px;
+    color: white;
+}
+
+.samanyolu{
+    position: relative;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    left: 100px;
+    animation-name: don;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation: donSam 15s linear infinite;
+}
+
+@keyframes donSam{
+   
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+
+.pluton{
+
+    position: relative;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 900px;
+    width: 900px;
+    top: 50px;
+    left: 50px;
+    animation-name: don;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation: donPlut 25s linear infinite;
+
+}
+
+.pluton img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    animation:donPlutSelf 3s linear infinite;
+}
+
+@keyframes donPlut{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+@keyframes donPlutSelf{
+   
+    100%{
+        transform: rotate(-360deg);
+    }
+    
+
+}
+
+.neptun{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 800px;
+    width: 800px;
+    top: 100px;
+    left: 100px;
+    animation-name: don;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation: donNep 15s linear infinite;
+
+}
+
+.neptun img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    animation:donNepSelf 3s linear infinite;
+}
+
+@keyframes donNep{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+@keyframes donNepSelf{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+.merkur{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 700px;
+    width: 700px;
+    top: 150px;
+    left: 150px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation: donMer 40s linear infinite;
+
+}
+
+.merkur img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 85px;
+    top: 85px;
+    animation:donMerSelf 3s linear infinite;
+}
+
+@keyframes donMer{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+@keyframes donMerSelf{
+   
+    100%{
+        transform: rotate(-360deg);
+    }
+    
+
+}
+
+.uranus{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    top: 200px;
+    left: 200px;
+    
+    animation: donUra 22s linear infinite;
+
+}
+
+.uranus img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 70px;
+    top: 70px;
+    animation:donUraSelf 3s linear infinite;
+}
+
+@keyframes donUra{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+@keyframes donUraSelf{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+.mars{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 530px;
+    width: 530px;
+    top: 230px;
+    left: 230px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation: donMar 30s linear infinite;
+
+}
+
+.mars img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 55px;
+    top: 55px;
+    animation:donMarSelf 3s linear infinite;
+}
+
+@keyframes donMar{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+@keyframes donMarSelf{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+.dunya{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    top: 300px;
+    left: 300px;
+    animation: donDun 10s linear infinite;
+
+}
+
+.dunya .dunya-ay {
+    border-radius: 50%;
+    width: 100px;
+ 
+    height: 100px;
+    position: relative;
+    
+    
+}
+
+.dunya .dunya-ay .dunya-ay-birlesik{
+    border-radius: 50%;
+    width: 100px;
+    
+    animation: donDun 10s linear infinite;
+    height: 100px;
+    left: 60px;
+    top: -75px;
+    position: relative;
+    
+    
+}
+
+.dunya .dunya-ay .dunya-img{
+    border-radius: 50%;
+    width: 40px;
+    left: 90px;
+    
+    height: 40px;
+    position: relative;
+    
+    animation:donDunSelf 3s linear infinite;
+}
+
+@keyframes donDun{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+@keyframes donDunSelf{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+.ay{
+
+    position: absolute;
+    
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    animation:donAySelf 3s linear infinite;
+   
+    
+
+}
+
+.ay{
+    
+   width: 12px;
+   height: 12px;
+
+}
+@keyframes donAySelf{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+.saturn{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    top: 350px;
+    left: 350px;
+    animation: donSat 15s linear infinite;
+
+}
+
+.saturn img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left:25px;
+    top: 25px;
+    animation:donSatSelf 3s linear infinite;
+}
+
+@keyframes donSat{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+@keyframes donSatSelf{
+   
+    100%{
+        transform: rotate(-360deg);
+    }
+    
+
+}
+.jupiter{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    top: 400px;
+    left: 400px;
+    animation: donJup 11s linear infinite;
+
+}
+
+.jupiter img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left:13px;
+    top: 13px;
+    animation:donJupSelf 3s linear infinite;
+}
+
+@keyframes donJup{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+@keyframes donJupSelf{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+.venus{
+
+    position: absolute;
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 450px;
+    left: 450px;
+    animation: donVen 11s linear infinite;
+
+}
+
+.venus img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:30px;
+    top: -16px;
+    animation:donVenSelf 3s linear infinite;
+}
+
+@keyframes donVen{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+@keyframes donVenSelf{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+.gunes{
+
+    position: absolute;
+   
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 480px;
+    left: 480px;
+    animation: donGun 2s linear infinite;
+
+}
+
+
+@keyframes donGun{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
